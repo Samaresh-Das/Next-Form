@@ -5,7 +5,6 @@ import { Fragment } from "react";
 import { MdDarkMode } from "react-icons/md";
 
 export default function Home() {
-  const []
   return (
     <Fragment>
       <button>
