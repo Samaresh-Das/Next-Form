@@ -2,7 +2,6 @@ import React, { Fragment } from "react";
 import { useSelector } from "react-redux";
 
 const Steps = (props) => {
-  console.log(props.className);
   const themeMode = useSelector((state) => state.theme.theme);
   return (
     <Fragment>
