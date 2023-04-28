@@ -5,7 +5,7 @@ import { BsCurrencyDollar } from "react-icons/bs";
 import { AiOutlineLike } from "react-icons/ai";
 import { useSelector } from "react-redux";
 import Hr from "./shared/Hr";
-import Steps from "./shared/steps";
+import Steps from "./shared/Steps";
 
 const ProgressBar = () => {
   const themeMode = useSelector((state) => state.theme.theme);
